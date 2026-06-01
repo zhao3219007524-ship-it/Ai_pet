@@ -1,0 +1,49 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 10px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  gap: 10px;
+}
+
+.pet-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.chat-section {
+  flex: 0 0 auto;
+  height: 300px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.footer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn-new-pet {
+  background: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn-new-pet:hover {
+  background: #5f3dc4;
+  transform: translateY(-2px);
+}
+
+.btn-new-pet:active {
+  transform: translateY(0);
+}
