@@ -1,0 +1,19 @@
+appId: com.petcompanion.app
+productName: Pet Companion
+files:
+  - dist/**/*
+  - node_modules/**/*
+directories:
+  buildResources: assets
+  output: build
+win:
+  target:
+    - nsis
+    - portable
+mac:
+  target:
+    - dmg
+    - zip
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
